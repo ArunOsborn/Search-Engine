@@ -120,7 +120,7 @@ def generateIndexes():
     # Processes every file in the wiki folder
 
     # Adds terms to the index
-    folder_name = "/ueapeople"
+    folder_name = "ueapeople"
     #folder_name = "../ueasmall"
     print("Processing "+str(len(os.listdir(folder_name)))+" files...")
     for file in os.listdir(folder_name):
