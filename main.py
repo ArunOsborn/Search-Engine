@@ -150,13 +150,13 @@ def generateIndexes():
 
     # Saves postings
     print("Saving data")
-    with open("postings.json", "w", encoding='utf-8') as file:
+    with open("indexes/postings.json", "w", encoding='utf-8') as file:
         json.dump(postings, file, indent=4)
     # Saves docIDs
-    with open("docID.json", "w", encoding='utf-8') as file:
+    with open("indexes/docID.json", "w", encoding='utf-8') as file:
         json.dump(docID, file, indent=4)
     # Saves vocabIDs
-    with open("vocabID.json", "w", encoding='utf-8') as file:
+    with open("indexes/vocabID.json", "w", encoding='utf-8') as file:
         json.dump(vocabID, file, indent=4)
     print("Saved")
 
